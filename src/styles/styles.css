@@ -1,0 +1,112 @@
+.calc-grid{
+    max-width:350px;
+    margin:0 auto;
+    background-color:white;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:minmax(4rem,auto);
+    padding:3px;
+    border-radius:10px;
+    margin-top:60px;
+}
+
+body{
+   
+    
+    background-color: #191919;
+}
+
+.span-2{
+    grid-column:span 2;
+}
+button{
+  
+    background-color:#f9f9f9;
+    border:2px solid white;
+    font-weight:bold;
+    height:60px;
+}
+button:active:not(.equal){
+
+background-color:#dadce0 !important
+}
+button:hover{
+    cursor:pointer;
+
+}
+
+.output{
+    grid-column:span 4;
+
+    border-radius:5px;
+   padding-right:10px;
+    justify-items: center;
+    display:flex;
+    flex-direction:column;
+    align-items: end;
+    align-content:center;
+    color:black !important;
+    
+}
+
+.output{
+    color:white;    
+    height:100%;
+    
+        text-align:right;
+}
+
+
+.output > div{
+
+
+ 
+
+
+}
+
+
+.cur-operdan h1{
+    font-size:20px !important;
+    margin-top:19px;
+}
+
+.header{
+    padding:12px;
+ 
+    background-color:#2d2d2d;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:white;
+   
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+    margin-bottom:25px;
+}
+
+
+.equal:active{
+    background-color:#3274e1;
+}
+
+
+
+.equal{
+    background-color:#4285f4;
+    color:white;
+    
+  }
+  
+  
+  
+  .lbutton{
+    background-color:#f1f3f4 !important;
+  }
+  .dbutton{
+    background-color:#dadce0;
+  }
+  
+  .dbutton:active{
+    background-color:red !important;
+  }
